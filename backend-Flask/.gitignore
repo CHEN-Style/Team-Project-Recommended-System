@@ -1,0 +1,17 @@
+# 忽略 Python 虚拟环境
+venv/
+
+# 忽略 __pycache__ 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略环境变量配置文件（如果有）
+.env
+.flaskenv
+
+# 忽略 IDE/编辑器临时文件
+.vscode/
+.idea/
+*.swp
+.DS_Store
